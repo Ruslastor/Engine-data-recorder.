@@ -16,9 +16,9 @@
 . 
 
 <p>Single-rotation wire emits the high-level signal each time there is a full-rotation, which will be used.</p>
-<img src="encoder.jpeg" alt="encoder image" width=300/>
+<img src="images_ham/encoder.jpeg" alt="encoder image" width=300/>
 <p>Prototype connection for signal investigation:</p>
-<img src="cables.jpeg" alt="connector image" width=300/>
+<img src="images_ham/cables.jpeg" alt="connector image" width=300/>
 <h2>The circuitry:</h2>
 <p>The recorder has inside:</p>
 <ul>
@@ -27,4 +27,4 @@
   <li>SPI SSD card module - used to save the data, in bigger storage.</li>
 </ul>
 <p>The encoder input is connected to raspberry</p>
-<img src="circuit.jpeg" alt="connector image" width=300/>
+<img src="images_ham/closer_look.gif" alt="connector image" width=300/>
