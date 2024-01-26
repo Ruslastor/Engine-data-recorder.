@@ -26,5 +26,8 @@
   <li>The Raspberry Pi Pico board with RP2040 microcontroller, programmed with MicroPython, used to collect, process and save the data</li>
   <li>SPI SSD card module - used to save the data, in bigger storage.</li>
 </ul>
-<p>The encoder input is connected to raspberry</p>
+<p>The encoder input is connected to raspberry with a 3.3V zenner diode so that the voltage of the signal will not exceed 3.3V. There are also 2 connectors for the encoder output (VCC, GND and a SIGNAL) and the battery input (16V VCC and GND).
+The assembled circuitry looks like this:</p>
 <img src="images_ham/closer_look.gif" alt="connector image" width=300/>
+And when mounted on a measuring stand:
+<img src="images_ham/" />
