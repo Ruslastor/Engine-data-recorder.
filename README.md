@@ -1,7 +1,7 @@
 <h1>Engine data recorder.</h1>
 
-<p>The aim of this small project was to make an engine speed recorder (500 impulses per single rotation), that will record the rpm of the engine and the period of each rotation.</p>
-<p>The rotation is being measured by the use of encoder. It has:</p>
+<p>This small project aimed to make an engine speed recorder (500 impulses per single rotation), that will record the rpm of the engine and the period of each rotation.</p>
+<p>The rotation is being measured by the use of an encoder. It has:</p>
 <ul>
   <li>A - yellow wire</li>
   <li>~A - green wire</li>
@@ -20,3 +20,4 @@
 <p>Prototype connection for signal investigation:</p>
 <img src="cables.jpeg" alt="connector image" width=300/>
 <h2>The circuitry:</h2>
+<img src="circuit.jpeg" alt="connector image" width=300/>
