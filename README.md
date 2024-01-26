@@ -30,4 +30,7 @@
 The assembled circuitry looks like this:</p>
 <img src="images_ham/closer_look.gif" alt="connector image" width=300/>
 And when mounted on a measuring stand:
-<img src="images_ham/" />
+<img src="images_ham/working_ham.gif" alt="Wirking" width=300/>
+
+<h2>Embedded Software</h2>
+<p>The script for the Raspberry Pi is called "<b>main.py</b>". It uses a hardware interrupt for each cycle of rotation, and then records the data inside a csv file. </p>
