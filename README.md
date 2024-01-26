@@ -20,4 +20,11 @@
 <p>Prototype connection for signal investigation:</p>
 <img src="cables.jpeg" alt="connector image" width=300/>
 <h2>The circuitry:</h2>
+<p>The recorder has inside:</p>
+<ul>
+  <li>The power module, that takes the power from an external accumulator(16V) and converts it to 5V and 3.3V output.</li>
+  <li>The Raspberry Pi Pico board with RP2040 microcontroller, programmed with MicroPython, used to collect, process and save the data</li>
+  <li>SPI SSD card module - used to save the data, in bigger storage.</li>
+</ul>
+<p>The encoder input is connected to raspberry</p>
 <img src="circuit.jpeg" alt="connector image" width=300/>
